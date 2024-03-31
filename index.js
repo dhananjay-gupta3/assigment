@@ -14,8 +14,8 @@ app.use('/', useRouter)
 app.use('/', useRouter);
 app.use('/', useRouter);
 app.use('/', useRouter);
-app.use('/delete/:productId', useRouter);
-app.use('/:categoryId', useRouter);
+app.use('/', useRouter);
+app.use('/', useRouter);
 
 
 app.listen(3001, () => {
